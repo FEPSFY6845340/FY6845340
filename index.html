@@ -240,8 +240,8 @@ source: https://www.sofi.com/learn/content/bitcoin-price-history/, https://finan
   var slideImages = ["slide1.jpg", "slide2.jpg", "slide3.jpg", "slide4.jpg", "slide5.jpg"];
   var currentSlide = 0;
 
-  function showSlide(){
-    document.getElementByID('slide').src = slideImages[currentSlide];
+  function showSlide() {
+    document.getElementById('slide').src = slideImages[currentSlide];
   }
   function nextSlide(){
     currentSlide = (currentSlide +1) % slideImages.length;
